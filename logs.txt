@@ -1,0 +1,10 @@
+Dia: 21/12/2021 7:30:17
+selection-engine-service-6b9d4797f5-hh4g2  -  pod "selection-engine-service-6b9d4797f5-hh4g2" deleted
+
+web-app-64fd7ff7bc-cwfwh  -  pod "web-app-64fd7ff7bc-cwfwh" deleted
+
+web-app-64fd7ff7bc-kv5gj  -  pod "web-app-64fd7ff7bc-kv5gj" deleted
+
+web-app-canary-668b7dbfd9-vpb4j  -  pod "web-app-canary-668b7dbfd9-vpb4j" deleted
+
+
