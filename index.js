@@ -44,10 +44,10 @@ cron.schedule('30 7 * * *', async () => {
   let newLogLine = `Dia: ${date}\r\n`;
 
   for await (const line of servicesToDrop) {
-    // console.log(line[0]);
-    // const kebectlDeletePo = execSync(`kubectl delete po ${line[0]}`, { encoding: 'utf-8' })
-    // console.log(kebectlDeletePo);
-    // newLogLine += `${line[0]}  -  ${kebectlDeletePo}\r\n`
+    console.log(line[0]);
+    const kebectlDeletePo = execSync(`kubectl delete po ${line[0]}`, { encoding: 'utf-8' })
+    console.log(kebectlDeletePo);
+    newLogLine += `${line[0]}  -  ${kebectlDeletePo}\r\n`
   }
   newLogLine += '\r\n';
 
