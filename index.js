@@ -3,6 +3,8 @@ const fs = require('fs');
 const execSync = require('child_process').execSync;
 
 console.log(execSync(`npx cowsay "SERVIÇO INICIALIZADO!" -y`, { encoding: 'utf-8' }));
+const kebectlGetPo = execSync(`kubectl get po`, { encoding: 'utf-8' })
+console.log(kebectlGetPo);
 
 async function getDate() {
   var d = new Date,
@@ -17,7 +19,7 @@ async function getDate() {
   return dformat;
 }
 
-cron.schedule('30 7 * * *', async () => {
+cron.schedule('45 6 * * *', async () => {
   const output = execSync(`npx cowsay -d "DERRUBANDO SERVIÇOS DO MSE" -y`, { encoding: 'utf-8' })
   console.log(output);
 
@@ -36,7 +38,15 @@ cron.schedule('30 7 * * *', async () => {
   // filter services to drop
   const servicesToDrop = cleanedArray.filter(el =>
     el[0].includes('selection-engine-service') ||
-    el[0].includes('web-app')
+    el[0].includes('web-app') ||
+    el[0].includes('api-gateway') ||
+    el[0].includes('service-order-service') ||
+    el[0].includes('report-service') ||
+    el[0].includes('partner-service') ||
+    el[0].includes('order-service') ||
+    el[0].includes('notification-service') ||
+    el[0].includes('auth-service') ||
+    el[0].includes('billing-service')
   );
 
   const date = await getDate();
@@ -49,6 +59,8 @@ cron.schedule('30 7 * * *', async () => {
     console.log(kebectlDeletePo);
     newLogLine += `${line[0]}  -  ${kebectlDeletePo}\r\n`
   }
+
+  console.log("Finalizado!");
   newLogLine += '\r\n';
 
   fs.appendFileSync('logs.txt', newLogLine, (err) => {

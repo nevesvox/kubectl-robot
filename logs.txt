@@ -8,3 +8,77 @@ web-app-64fd7ff7bc-kv5gj  -  pod "web-app-64fd7ff7bc-kv5gj" deleted
 web-app-canary-668b7dbfd9-vpb4j  -  pod "web-app-canary-668b7dbfd9-vpb4j" deleted
 
 
+Dia: 22/12/2021 8:8:26
+api-gateway-7b7b8ff97-ggggw  -  pod "api-gateway-7b7b8ff97-ggggw" deleted
+
+auth-service-6ccbb6fff6-frs99  -  pod "auth-service-6ccbb6fff6-frs99" deleted
+
+auth-service-6ccbb6fff6-tq4lq  -  pod "auth-service-6ccbb6fff6-tq4lq" deleted
+
+billing-service-67454b987f-whtdc  -  pod "billing-service-67454b987f-whtdc" deleted
+
+notification-service-749c99d58f-fdk76  -  pod "notification-service-749c99d58f-fdk76" deleted
+
+order-service-8576c54b46-hxfkq  -  pod "order-service-8576c54b46-hxfkq" deleted
+
+partner-service-7d69bd784c-kcc5s  -  pod "partner-service-7d69bd784c-kcc5s" deleted
+
+report-service-5f87cc6c96-6shdm  -  pod "report-service-5f87cc6c96-6shdm" deleted
+
+selection-engine-service-6b9d4797f5-mplbj  -  pod "selection-engine-service-6b9d4797f5-mplbj" deleted
+
+service-order-service-5d657cb979-q7rmc  -  pod "service-order-service-5d657cb979-q7rmc" deleted
+
+web-app-64fd7ff7bc-ct6ff  -  pod "web-app-64fd7ff7bc-ct6ff" deleted
+
+web-app-64fd7ff7bc-jn454  -  pod "web-app-64fd7ff7bc-jn454" deleted
+
+web-app-canary-668b7dbfd9-888ld  -  pod "web-app-canary-668b7dbfd9-888ld" deleted
+
+
+Dia: 22/12/2021 8:17:24
+
+Dia: 22/12/2021 8:17:28
+
+Dia: 22/12/2021 8:17:33
+
+Dia: 22/12/2021 8:17:37
+
+Dia: 22/12/2021 8:17:41
+
+Dia: 22/12/2021 8:17:45
+
+Dia: 22/12/2021 8:17:50
+
+Dia: 22/12/2021 8:17:55
+
+Dia: 23/12/2021 7:45:5
+api-gateway-7b7b8ff97-2jfgm  -  pod "api-gateway-7b7b8ff97-2jfgm" deleted
+
+auth-service-6ccbb6fff6-c79pk  -  pod "auth-service-6ccbb6fff6-c79pk" deleted
+
+auth-service-6ccbb6fff6-sjp9m  -  pod "auth-service-6ccbb6fff6-sjp9m" deleted
+
+billing-service-67454b987f-dnt4v  -  pod "billing-service-67454b987f-dnt4v" deleted
+
+notification-service-749c99d58f-pbtf8  -  pod "notification-service-749c99d58f-pbtf8" deleted
+
+order-service-8576c54b46-s9578  -  pod "order-service-8576c54b46-s9578" deleted
+
+partner-service-7d69bd784c-9wqm4  -  pod "partner-service-7d69bd784c-9wqm4" deleted
+
+report-service-5f87cc6c96-dcr6b  -  pod "report-service-5f87cc6c96-dcr6b" deleted
+
+selection-engine-service-6b9d4797f5-7htpd  -  pod "selection-engine-service-6b9d4797f5-7htpd" deleted
+
+service-order-service-5d657cb979-sd2hn  -  pod "service-order-service-5d657cb979-sd2hn" deleted
+
+web-app-64fd7ff7bc-qk8g4  -  pod "web-app-64fd7ff7bc-qk8g4" deleted
+
+web-app-64fd7ff7bc-r5s76  -  pod "web-app-64fd7ff7bc-r5s76" deleted
+
+web-app-canary-668b7dbfd9-drzv9  -  pod "web-app-canary-668b7dbfd9-drzv9" deleted
+
+
+Dia: 23/12/2021 7:49:3
+
