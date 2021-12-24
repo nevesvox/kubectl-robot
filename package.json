@@ -5,11 +5,14 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "options": "node options.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node-cron": "^3.0.0"
+    "node-cron": "^3.0.0",
+    "chalk": "^4.1.0",
+    "inquirer": "^8.2.0"
   }
 }
