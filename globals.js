@@ -37,7 +37,7 @@ async function dropServices(type, services) {
   let servicesToDrop = [];
   for await (const service of services) {
     servicesToDrop = servicesToDrop.concat(cleanedArray.filter(el =>
-      el[0].includes(service)
+      el[0].indexOf(service) === 0
     ))
   }
 
